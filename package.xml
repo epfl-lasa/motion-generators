@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>motion_generators</name>
   <version>0.0.0</version>
   <description>The motion_generators package</description>
@@ -17,12 +17,10 @@
 
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend> mathlib </build_depend>
-  <run_depend> mathlib </run_depend>
-  <build_depend> std_tools </build_depend>
-  <run_depend> std_tools </run_depend>
-  <build_depend> robotlib </build_depend>
-  <run_depend> robotlib </run_depend>
+
+  <depend> mathlib </depend>
+  <depend> std_tools </depend>
+  <depend> robotlib </depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
@@ -30,6 +28,6 @@
     <!-- <metapackage/> -->
 
     <!-- Other tools can request additional information be placed here -->
-
   </export>
+  
 </package>
